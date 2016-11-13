@@ -12,7 +12,7 @@
 
         <!-- Styles -->
         <link href="/css/app.css" rel="stylesheet">
-        <link href="https://cdnjs.cloudflare.com/ajax/libs/bootswatch/3.3.7/paper/bootstrap.min.css" rel="stylesheet">
+        {{--<link href="https://cdnjs.cloudflare.com/ajax/libs/bootswatch/3.3.7/paper/bootstrap.min.css" rel="stylesheet">--}}
 
         <!-- Scripts -->
         <script>
@@ -22,6 +22,7 @@
         </script>
     </head>
     <body>
+    <div id="app">
         <nav class="navbar navbar-default navbar-static-top">
             <div class="container">
                 <div class="navbar-header">
@@ -94,6 +95,7 @@
         <div class="container">
             &copy; {{ date('Y') }}. Created by <a href="http://www.appzcoder.com">AppzCoder</a>
             <br/>
+        </div>
         </div>
 
         <!-- Scripts -->
