@@ -35,3 +35,5 @@ Route::group(['prefix' => 'admin', 'middleware' => ['auth', 'roles'], 'roles' =>
 Auth::routes();
 
 Route::get('/home', 'HomeController@index');
+
+Route::resource('front/news', 'Front\\NewsController');
